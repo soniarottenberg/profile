@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&display=swap');
+@import url("components/about.css");
+@import url("components/button.css");
+@import url("components/contact.css");
+@import url("components/navbar.css");
+@import url("components/presentation.css");
+@import url("components/stack.css");
+@import url("components/work.css");
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+footer {
+  position: fixed-bottom;
+  background-color: #3F3C56;
+  color: white;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+p {
+  margin: 0
+}
+
+i {
+  font-size: 64px;
+}
+
+
+#dev-girl {
+  height: 450px;
+}

@@ -1,0 +1,20 @@
+.presentation {
+  position: relative;
+  padding-top: 40px;
+  height: 100vh;
+}
+
+.get-down {
+  font-size: 24px;
+  text-align: center;
+}
+
+.intro {
+  position: absolute;
+  z-index: 1;
+}
+
+.image {
+  text-align: right;
+  margin-top: 24px;
+}

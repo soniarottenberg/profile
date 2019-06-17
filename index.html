@@ -6,74 +6,119 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/e9ad3d9289.js"></script>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-  <div>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#">sonia rottenberg</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  </div>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">work<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">about</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<div class="container">
-  <div class="presentation">
-    <div class="intro">
-      <h1>Hello folks!</h1>
-      <h2>I am Sonia. Fullstack Dev.</h2>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav justify-content-end">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Work</a>
+        </li>
+      </ul>
     </div>
-    <div class="image">
-      <img src="images/undraw_web_development_w2vv.svg" alt="dev" id="dev-girl">
-    </div>
-  </div>
-  <div class="stack">
-    <h2>Stack</h2>
-    <ul class="list-inline">
-      <li class="list-inline-item"><i class="devicon-ruby-plain colored"></i></li>
-      <li class="list-inline-item"><i class="devicon-rails-plain colored"></i></li>
-      <li class="list-inline-item"><i class="devicon-html5-plain colored"></i></li>
-      <li class="list-inline-item"><i class="devicon-css3-plain colored"></i></li>
-      <li class="list-inline-item"><i class="devicon-javascript-plain colored"></i></li>
-      <li class="list-inline-item"><i class="devicon-heroku-plain colored"></i></li>
-      <li class="list-inline-item"><i class="devicon-git-plain colored"></i></li>
-      <li class="list-inline-item"><i class="devicon-github-plain colored"></i></li>
-      <li class="list-inline-item"><i class="devicon-postgresql-plain colored"></i></li>
-      <li class="list-inline-item"><i class="devicon-bootstrap-plain colored"></i></li>
-    </ul>
-  </div>
-  <div class="work">
-    <h2>Work</h2>
-  </div>
-</div>
-<footer class="bg-light">
+  </nav>
+
   <div class="container">
-    <p>Contact</p>
-    <ul>
-      <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-      <li><a href=""><i class="fab fa-github-square"></i></a></li>
-    </ul>
+    <div class="presentation">
+      <div class="intro">
+        <h1>Hello folks!</h1>
+        <h2>I am Sonia. Fullstack Dev.</h2>
+        <a href="#" class="btn-green">Hire me!</a>
+      </div>
+      <div class="image">
+        <img src="images/undraw_web_development_w2vv.svg" alt="dev" id="dev-girl">
+      </div>
+      <div class="get-down">
+        <img src="images/arrow-down.svg" alt="arrow-down">
+      </div>
+    </div>
+    <div class="stack go-to-stack">
+      <h2 class="pb-3">Stack</h2>
+      <div class="all-stacks">
+        <i class="devicon-ruby-plain colored"></i>
+        <i class="devicon-rails-plain colored"></i>
+        <i class="devicon-html5-plain colored"></i>
+        <i class="devicon-css3-plain colored"></i>
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-heroku-plain colored"></i>
+        <i class="devicon-git-plain colored"></i>
+        <i class="devicon-github-plain colored"></i>
+        <i class="devicon-postgresql-plain colored"></i>
+        <i class="devicon-bootstrap-plain colored"></i>
+      </div>
+    </div>
+    <div class="work go-to-work">
+      <h2>Work</h2>
+      <div class="work-grid">
+        <div class="card-work" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/funday.png)">
+          <a href="https://www.funday.best/">Funday (mobile only)</a>
+        </div>
+        <div class="card-work" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/deguizoo.png)">
+          <a href="https://deguizoo.herokuapp.com/">Deguizoo</a>
+        </div>
+        <div class="card-work" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+          <a href="">Mister Cocktail</a>
+        </div>
+      </div>
+    </div>
+    <div class="about go-to-about">
+      <div class="about-info">
+        <h2>About</h2>
+        <p>2016 - Master Degree in Communication Marketing in the pocket.</p>
+        <p>2017 - Got hired in L'olivier - assurance auto as a webmarketing project manager. Yeehaa!</p>
+        <p>2019 - Ouch... Mad in Love my team and stuff, but not so much with my tasks anymore... Time for a change maybe?</p>
+        <p>2019 - Succefully took Le Wagon 9 weeks course and now proud Fullstack Junior Dev.</p>
+      </div>
+    </div>
   </div>
-</footer>
+  <footer>
+    <div class="container">
+      <div class="contact">
+        <div class="get-in-touch">
+          <h2>Contact</h2>
+          <p>e-mail : sonia.rottenberg@gmail.com</p>
+          <p>tel : +00 336 06 57 17 90</p>
+        </div>
+        <div class="social">
+          <p>You can also find me here!</p>
+          <div class="d-flex justify-content-around">
+            <div>
+              <a href="https://www.linkedin.com/in/soniarottenberg/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div>
+              <a href="https://github.com/soniarottenberg"><i class="fab fa-github-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Made with ❤️ by Sonia Rottenberg</p>
+    </div>
+  </footer class="footer">
+
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

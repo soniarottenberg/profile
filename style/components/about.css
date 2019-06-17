@@ -1,0 +1,28 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #08D9D6;
+  border-radius: 2px;
+  padding: 8px;
+  margin: 0px 0px 128px 0px;
+}
+
+.social a {
+  color: white;
+  font-size: 32Px;
+  opacity: 0.6;
+}
+
+.social a:hover {
+  opacity: 1;
+}
+
+.copyright {
+  background-color: #1d1c28;
+  text-align: center;
+  padding: 8px;
+}
+
+.copyright p {
+  font-size: 12px;
+}
