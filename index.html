@@ -1,80 +1,79 @@
-<html>
-  <head>
-    <title>Sonia Rottenberg : front-end developer</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body class="tropical">
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
 
-    <nav class="navbar">
-      <ul>
-        <li>
-          <h1>Sonia</h1>
-        </li>
-        <li id="left-about">
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Work</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <script src="https://kit.fontawesome.com/e9ad3d9289.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <div class="card-green">
-      <h2>Front-end developer</h2>
-      <p id="bio">
-        Currently learning code at Le Wagon Paris. <br>
-        Cat lover. Paper RPG enthousiast.
-      </p>
-      <a class="btn-green" href="#">Contact</a>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div>
+    <a class="navbar-brand" href="#">sonia rottenberg</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">work<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">about</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="presentation">
+    <div class="intro">
+      <h1>Hello folks!</h1>
+      <h2>I am Sonia. Fullstack Dev.</h2>
     </div>
-
-    <div class="info">
-      <div class= "card-white right-position">
-        <h2>Stack</h2>
-          <ul>Front-end<br>
-            <li>HTML</li>
-            <li>CCS3</li>
-            <li>JavaScript</li>
-          </ul>
-          <ul>Back-end<br>
-            <li>Ruby</li>
-            <li>SQL</li>
-          </ul>
-      </div>
-
-      <div class= "card-white left-position">
-        <h2>Résumé</h2>
-          <p>
-            After 2 years as a digital project manager, i had enough of coordinating stuff and people. I wanted to do things by myself. I really enjoy programming. It is like a game to me.
-          </p>
-      </div>
+    <div class="image">
+      <img src="images/undraw_web_development_w2vv.svg" alt="dev" id="dev-girl">
     </div>
+  </div>
+  <div class="stack">
+    <h2>Stack</h2>
+    <ul class="list-inline">
+      <li class="list-inline-item"><i class="devicon-ruby-plain colored"></i></li>
+      <li class="list-inline-item"><i class="devicon-rails-plain colored"></i></li>
+      <li class="list-inline-item"><i class="devicon-html5-plain colored"></i></li>
+      <li class="list-inline-item"><i class="devicon-css3-plain colored"></i></li>
+      <li class="list-inline-item"><i class="devicon-javascript-plain colored"></i></li>
+      <li class="list-inline-item"><i class="devicon-heroku-plain colored"></i></li>
+      <li class="list-inline-item"><i class="devicon-git-plain colored"></i></li>
+      <li class="list-inline-item"><i class="devicon-github-plain colored"></i></li>
+      <li class="list-inline-item"><i class="devicon-postgresql-plain colored"></i></li>
+      <li class="list-inline-item"><i class="devicon-bootstrap-plain colored"></i></li>
+    </ul>
+  </div>
+  <div class="work">
+    <h2>Work</h2>
+  </div>
+</div>
+<footer class="bg-light">
+  <div class="container">
+    <p>Contact</p>
+    <ul>
+      <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href=""><i class="fab fa-github-square"></i></a></li>
+    </ul>
+  </div>
+</footer>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
 
-    <footer>
-      <ul>
-        <li>
-          <a href="https://github.com/soniarottenberg" target="_blank">
-            <i class="fab fa-github-square"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/soniarottenberg/" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-      </ul>
-    </footer>
-
-  </body>
 </html>
