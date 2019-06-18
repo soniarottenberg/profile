@@ -1,6 +1,6 @@
 .work-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
   margin: 0px 0px 128px 0px;
 }
